@@ -1,0 +1,21 @@
+//Andrew Hedy
+//Circle
+
+/* Program: face.cpp */
+
+#include "ccc_win.h"
+
+int ccc_win_main()
+{  
+  Point nose(0, 3), leftEye(0, 3.5), rightEye(2, 3.5);
+  Point p(0, 2), q(2, 2); 
+  Line lip(p, q); 
+ 
+  cwin << Circle(nose, 2.5);
+  cwin << Circle(leftEye, .25);
+  cwin << Circle(rightEye, .25);
+  cwin << lip; 
+ 
+  return 0;
+}
+
