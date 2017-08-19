@@ -1,0 +1,5 @@
+game.cpp: In function ‘void shellgame()’:
+game.cpp:11: error: ‘p1’ was not declared in this scope
+game.cpp:11: error: ‘p2’ was not declared in this scope
+game.cpp:11: error: initializer expression list treated as compound expression
+game.cpp:12: error: expected ‘,’ or ‘;’ before ‘cwin’
